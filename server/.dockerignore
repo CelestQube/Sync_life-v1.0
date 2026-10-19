@@ -1,0 +1,13 @@
+.env
+.env.*
+!.env.example
+.venv
+.local
+.idea
+local-account.json
+__pycache__
+**/__pycache__
+*.pyc
+**/*.pyc
+*.log
+**/*.log

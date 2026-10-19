@@ -1,0 +1,20 @@
+name: sync-life-local
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:?Run setup_local.py first}
+      POSTGRES_USER: ${POSTGRES_USER:?Run setup_local.py first}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Run setup_local.py first}
+    ports:
+      - "127.0.0.1:${POSTGRES_PORT:-55432}:5432"
+    volumes:
+      - motion_database:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $$POSTGRES_USER -d $$POSTGRES_DB"]
+      interval: 3s
+      timeout: 3s
+      retries: 20
+    restart: unless-stopped
+volumes:
+  motion_database:

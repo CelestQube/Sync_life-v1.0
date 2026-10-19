@@ -1,0 +1,342 @@
+{
+  "fixture": "SYNTHETIC_SOFTWARE_TEST_ONLY",
+  "protocol": 1,
+  "events": [
+    {
+      "segment_id": "67b1178c-6be1-4248-972f-880cc96dc3f3",
+      "device_id": "4fd50ebf-222b-4e69-a7a2-f77488d61c62",
+      "session_id": "2f5231de-faee-4ec6-b52a-46af755c912b",
+      "start_time": "2020-01-02T02:00:00.000Z",
+      "end_time": "2020-01-02T02:00:01.233321Z",
+      "state": "UNKNOWN",
+      "confidence": 0.0,
+      "features": {
+        "pelvis_tilt_deg": 90.00000250447818,
+        "trunk_tilt_deg": 90.00000250447818,
+        "thigh_tilt_deg": 90.00000250447818,
+        "knee_flex_deg": 0.0,
+        "pelvis_acc_rms": 0.0,
+        "cadence_hz": 0.0,
+        "leg_swing_deg": 0.0
+      },
+      "frame_count": 38,
+      "source": "phone_ble",
+      "algorithm_version": "smpl-imu-temporal-v2"
+    },
+    {
+      "segment_id": "d2423aba-bd6b-4176-b997-7a360a903efa",
+      "device_id": "4fd50ebf-222b-4e69-a7a2-f77488d61c62",
+      "session_id": "2f5231de-faee-4ec6-b52a-46af755c912b",
+      "start_time": "2020-01-02T02:00:01.266654Z",
+      "end_time": "2020-01-02T02:00:05.966607Z",
+      "state": "LIE",
+      "confidence": 0.8499999999999979,
+      "features": {
+        "pelvis_tilt_deg": 90.00000250447793,
+        "trunk_tilt_deg": 90.00000250447793,
+        "thigh_tilt_deg": 90.00000250447793,
+        "knee_flex_deg": 0.0,
+        "pelvis_acc_rms": 0.0,
+        "cadence_hz": 0.0,
+        "leg_swing_deg": 0.0
+      },
+      "frame_count": 142,
+      "source": "phone_ble",
+      "algorithm_version": "smpl-imu-temporal-v2"
+    },
+    {
+      "segment_id": "f2c3bc2e-66eb-4c02-91ce-1773d1ff1234",
+      "device_id": "4fd50ebf-222b-4e69-a7a2-f77488d61c62",
+      "session_id": "2f5231de-faee-4ec6-b52a-46af755c912b",
+      "start_time": "2020-01-02T02:01:00.000Z",
+      "end_time": "2020-01-02T02:01:01.233321Z",
+      "state": "UNKNOWN",
+      "confidence": 0.0,
+      "features": {
+        "pelvis_tilt_deg": 0.0,
+        "trunk_tilt_deg": 0.0,
+        "thigh_tilt_deg": 0.0,
+        "knee_flex_deg": 0.0,
+        "pelvis_acc_rms": 0.0,
+        "cadence_hz": 0.0,
+        "leg_swing_deg": 0.0
+      },
+      "frame_count": 38,
+      "source": "phone_ble",
+      "algorithm_version": "smpl-imu-temporal-v2"
+    },
+    {
+      "segment_id": "c164953a-f833-46dd-bf99-7ad1389c8901",
+      "device_id": "4fd50ebf-222b-4e69-a7a2-f77488d61c62",
+      "session_id": "2f5231de-faee-4ec6-b52a-46af755c912b",
+      "start_time": "2020-01-02T02:01:01.266654Z",
+      "end_time": "2020-01-02T02:01:05.966607Z",
+      "state": "STAND",
+      "confidence": 0.9000000000000022,
+      "features": {
+        "pelvis_tilt_deg": 0.0,
+        "trunk_tilt_deg": 0.0,
+        "thigh_tilt_deg": 0.0,
+        "knee_flex_deg": 0.0,
+        "pelvis_acc_rms": 0.0,
+        "cadence_hz": 0.0,
+        "leg_swing_deg": 0.0
+      },
+      "frame_count": 142,
+      "source": "phone_ble",
+      "algorithm_version": "smpl-imu-temporal-v2"
+    },
+    {
+      "segment_id": "1b4f6c24-4385-4099-bdad-6dff52b27c53",
+      "device_id": "4fd50ebf-222b-4e69-a7a2-f77488d61c62",
+      "session_id": "2f5231de-faee-4ec6-b52a-46af755c912b",
+      "start_time": "2020-01-02T02:02:00.000Z",
+      "end_time": "2020-01-02T02:02:01.233321Z",
+      "state": "UNKNOWN",
+      "confidence": 0.0,
+      "features": {
+        "pelvis_tilt_deg": 0.0,
+        "trunk_tilt_deg": 0.0,
+        "thigh_tilt_deg": 90.00000250447818,
+        "knee_flex_deg": 90.00000250447818,
+        "pelvis_acc_rms": 0.0,
+        "cadence_hz": 0.0,
+        "leg_swing_deg": 0.0
+      },
+      "frame_count": 38,
+      "source": "phone_ble",
+      "algorithm_version": "smpl-imu-temporal-v2"
+    },
+    {
+      "segment_id": "39578986-f880-44f4-bb93-2161531a007f",
+      "device_id": "4fd50ebf-222b-4e69-a7a2-f77488d61c62",
+      "session_id": "2f5231de-faee-4ec6-b52a-46af755c912b",
+      "start_time": "2020-01-02T02:02:01.266654Z",
+      "end_time": "2020-01-02T02:02:05.966607Z",
+      "state": "SIT",
+      "confidence": 0.8499999999999979,
+      "features": {
+        "pelvis_tilt_deg": 0.0,
+        "trunk_tilt_deg": 0.0,
+        "thigh_tilt_deg": 90.00000250447793,
+        "knee_flex_deg": 90.00000250447793,
+        "pelvis_acc_rms": 0.0,
+        "cadence_hz": 0.0,
+        "leg_swing_deg": 0.0
+      },
+      "frame_count": 142,
+      "source": "phone_ble",
+      "algorithm_version": "smpl-imu-temporal-v2"
+    },
+    {
+      "segment_id": "37427a19-1571-4846-9466-e69ffea52d72",
+      "device_id": "4fd50ebf-222b-4e69-a7a2-f77488d61c62",
+      "session_id": "2f5231de-faee-4ec6-b52a-46af755c912b",
+      "start_time": "2020-01-02T02:03:00.000Z",
+      "end_time": "2020-01-02T02:03:02.399976Z",
+      "state": "UNKNOWN",
+      "confidence": 0.0,
+      "features": {
+        "pelvis_tilt_deg": 0.0,
+        "trunk_tilt_deg": 0.0,
+        "thigh_tilt_deg": 13.883801640390269,
+        "knee_flex_deg": 0.0,
+        "pelvis_acc_rms": 0.9569221592248374,
+        "cadence_hz": 0.7299106079455631,
+        "leg_swing_deg": 68.0638286611817
+      },
+      "frame_count": 73,
+      "source": "phone_ble",
+      "algorithm_version": "smpl-imu-temporal-v2"
+    },
+    {
+      "segment_id": "014d4cf7-8718-4c29-9048-dbf3d2f6a287",
+      "device_id": "4fd50ebf-222b-4e69-a7a2-f77488d61c62",
+      "session_id": "2f5231de-faee-4ec6-b52a-46af755c912b",
+      "start_time": "2020-01-02T02:03:02.433309Z",
+      "end_time": "2020-01-02T02:03:05.966607Z",
+      "state": "WALK",
+      "confidence": 0.899999999595927,
+      "features": {
+        "pelvis_tilt_deg": 0.0,
+        "trunk_tilt_deg": 0.0,
+        "thigh_tilt_deg": 14.486824598887681,
+        "knee_flex_deg": 0.0,
+        "pelvis_acc_rms": 0.9901954121633801,
+        "cadence_hz": 2.0,
+        "leg_swing_deg": 79.77662638972132
+      },
+      "frame_count": 107,
+      "source": "phone_ble",
+      "algorithm_version": "smpl-imu-temporal-v2"
+    },
+    {
+      "segment_id": "f3ddc9cd-7ffc-42f0-b832-7fc183467107",
+      "device_id": "4fd50ebf-222b-4e69-a7a2-f77488d61c62",
+      "session_id": "2f5231de-faee-4ec6-b52a-46af755c912b",
+      "start_time": "2020-01-02T02:04:00.000Z",
+      "end_time": "2020-01-02T02:04:02.333310Z",
+      "state": "UNKNOWN",
+      "confidence": 0.0,
+      "features": {
+        "pelvis_tilt_deg": 0.0,
+        "trunk_tilt_deg": 0.0,
+        "thigh_tilt_deg": 13.650914583831296,
+        "knee_flex_deg": 0.0,
+        "pelvis_acc_rms": 3.296486638416373,
+        "cadence_hz": 1.0140845070422535,
+        "leg_swing_deg": 71.91793820662835
+      },
+      "frame_count": 71,
+      "source": "phone_ble",
+      "algorithm_version": "smpl-imu-temporal-v2"
+    },
+    {
+      "segment_id": "6346e8ae-f259-436e-98d0-a3fa06666e44",
+      "device_id": "4fd50ebf-222b-4e69-a7a2-f77488d61c62",
+      "session_id": "2f5231de-faee-4ec6-b52a-46af755c912b",
+      "start_time": "2020-01-02T02:04:02.366643Z",
+      "end_time": "2020-01-02T02:04:05.966607Z",
+      "state": "RUN",
+      "confidence": 0.8999999995995602,
+      "features": {
+        "pelvis_tilt_deg": 0.0,
+        "trunk_tilt_deg": 0.0,
+        "thigh_tilt_deg": 14.026560219850568,
+        "knee_flex_deg": 0.0,
+        "pelvis_acc_rms": 3.393990306541894,
+        "cadence_hz": 3.0,
+        "leg_swing_deg": 80.21408763377289
+      },
+      "frame_count": 109,
+      "source": "phone_ble",
+      "algorithm_version": "smpl-imu-temporal-v2"
+    },
+    {
+      "segment_id": "93aa817a-01de-4f55-a9b6-ad6e979b3b3d",
+      "device_id": "4fd50ebf-222b-4e69-a7a2-f77488d61c62",
+      "session_id": "2f5231de-faee-4ec6-b52a-46af755c912b",
+      "start_time": "2020-01-02T02:05:00.000Z",
+      "end_time": "2020-01-02T02:05:05.033283Z",
+      "state": "UNKNOWN",
+      "confidence": 0.0,
+      "features": {
+        "pelvis_tilt_deg": 0.0,
+        "trunk_tilt_deg": 60.16056575666075,
+        "thigh_tilt_deg": 0.0,
+        "knee_flex_deg": 0.0,
+        "pelvis_acc_rms": 0.0,
+        "cadence_hz": 0.0,
+        "leg_swing_deg": 0.0
+      },
+      "frame_count": 152,
+      "source": "phone_ble",
+      "algorithm_version": "smpl-imu-temporal-v2"
+    },
+    {
+      "segment_id": "80ae129e-fc90-4b18-886e-91c74baa5f08",
+      "device_id": "4fd50ebf-222b-4e69-a7a2-f77488d61c62",
+      "session_id": "2f5231de-faee-4ec6-b52a-46af755c912b",
+      "start_time": "2020-01-02T02:05:05.033283Z",
+      "end_time": "2020-01-02T02:05:05.966607Z",
+      "state": "UNKNOWN",
+      "confidence": 0.0,
+      "features": {
+        "pelvis_tilt_deg": 0.0,
+        "trunk_tilt_deg": 60.16056575666079,
+        "thigh_tilt_deg": 0.0,
+        "knee_flex_deg": 0.0,
+        "pelvis_acc_rms": 0.0,
+        "cadence_hz": 0.0,
+        "leg_swing_deg": 0.0
+      },
+      "frame_count": 29,
+      "source": "phone_ble",
+      "algorithm_version": "smpl-imu-temporal-v2"
+    },
+    {
+      "segment_id": "e325db24-c924-45d7-8298-51995f3169cb",
+      "device_id": "4fd50ebf-222b-4e69-a7a2-f77488d61c62",
+      "session_id": "2f5231de-faee-4ec6-b52a-46af755c912b",
+      "start_time": "2020-01-02T02:06:00.000Z",
+      "end_time": "2020-01-02T02:06:03.499965Z",
+      "state": "UNKNOWN",
+      "confidence": 0.0,
+      "features": {
+        "pelvis_tilt_deg": 0.0,
+        "trunk_tilt_deg": 0.0,
+        "thigh_tilt_deg": 2.9737993670774827,
+        "knee_flex_deg": 0.0,
+        "pelvis_acc_rms": 0.3423972402891676,
+        "cadence_hz": 1.9460327917657159,
+        "leg_swing_deg": 15.217178140264622
+      },
+      "frame_count": 106,
+      "source": "phone_ble",
+      "algorithm_version": "smpl-imu-temporal-v2"
+    },
+    {
+      "segment_id": "796da0b8-032f-41b1-a856-c289d08690c3",
+      "device_id": "4fd50ebf-222b-4e69-a7a2-f77488d61c62",
+      "session_id": "2f5231de-faee-4ec6-b52a-46af755c912b",
+      "start_time": "2020-01-02T02:06:03.533298Z",
+      "end_time": "2020-01-02T02:06:05.966607Z",
+      "state": "SLOW_WALK",
+      "confidence": 0.8499999995907667,
+      "features": {
+        "pelvis_tilt_deg": 0.0,
+        "trunk_tilt_deg": 0.0,
+        "thigh_tilt_deg": 3.104567266950572,
+        "knee_flex_deg": 0.0,
+        "pelvis_acc_rms": 0.3534055079473837,
+        "cadence_hz": 1.2000000000000017,
+        "leg_swing_deg": 18.182712549273848
+      },
+      "frame_count": 74,
+      "source": "phone_ble",
+      "algorithm_version": "smpl-imu-temporal-v2"
+    },
+    {
+      "segment_id": "3d3ce477-2a41-4c73-bcd8-16f133ab306a",
+      "device_id": "4fd50ebf-222b-4e69-a7a2-f77488d61c62",
+      "session_id": "2f5231de-faee-4ec6-b52a-46af755c912b",
+      "start_time": "2020-01-02T02:07:00.000Z",
+      "end_time": "2020-01-02T02:07:02.333310Z",
+      "state": "UNKNOWN",
+      "confidence": 0.0,
+      "features": {
+        "pelvis_tilt_deg": 0.0,
+        "trunk_tilt_deg": 0.0,
+        "thigh_tilt_deg": 13.521310337407549,
+        "knee_flex_deg": 0.0,
+        "pelvis_acc_rms": 1.7809719582853276,
+        "cadence_hz": 0.8170238824249844,
+        "leg_swing_deg": 69.8869931572315
+      },
+      "frame_count": 71,
+      "source": "phone_ble",
+      "algorithm_version": "smpl-imu-temporal-v2"
+    },
+    {
+      "segment_id": "35c407e5-6318-4bae-b307-b8ee23fd7f2d",
+      "device_id": "4fd50ebf-222b-4e69-a7a2-f77488d61c62",
+      "session_id": "2f5231de-faee-4ec6-b52a-46af755c912b",
+      "start_time": "2020-01-02T02:07:02.366643Z",
+      "end_time": "2020-01-02T02:07:05.966607Z",
+      "state": "JOG",
+      "confidence": 0.8499999995988553,
+      "features": {
+        "pelvis_tilt_deg": 0.0,
+        "trunk_tilt_deg": 0.0,
+        "thigh_tilt_deg": 14.154471710259982,
+        "knee_flex_deg": 0.0,
+        "pelvis_acc_rms": 1.8382462027082578,
+        "cadence_hz": 2.4000000000000035,
+        "leg_swing_deg": 80.05592041053339
+      },
+      "frame_count": 109,
+      "source": "phone_ble",
+      "algorithm_version": "smpl-imu-temporal-v2"
+    }
+  ]
+}

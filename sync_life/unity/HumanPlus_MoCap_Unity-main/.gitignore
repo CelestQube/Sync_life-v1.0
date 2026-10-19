@@ -1,0 +1,25 @@
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+UserSettings/
+
+# Visual Studio / Rider
+.vs/
+.vscode/
+.idea/
+*.csproj
+*.sln
+*.user
+*.pidb
+*.booproj
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Unity meta handling is critical
+!Assets/**/*.meta
+!ProjectSettings/**/*.asset

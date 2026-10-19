@@ -1,0 +1,7 @@
+# HTTP API runtime only; desktop clothing/Unity dependencies are separate.
+Django==4.2.15
+django-cors-headers==4.9.0
+numpy==2.4.4
+requests==2.32.3
+psutil==7.2.1
+psycopg2-binary>=2.9,<3
